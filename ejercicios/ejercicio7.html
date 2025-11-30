@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/my-handling-form-page" method="post">
+      <label for="name">Nombre</label>
+      <br />
+      <input type="text" id="name" name="user_name" />
+      <br />
+      <label for="name">Apellido</label><br />
+      <input type="text" id="apellido" /><br />
+      <label for="name">Contraseña</label><br />
+      <input type="text" id="contraseña" />
+      <br />
+      <label for="name">DNI</label><br />
+      <input type="text" id="DNI" />
+    </form>
+    <p>
+      <strong>Sexo</strong>
+    </p>
+
+    <input type="radio" id="hombre" name="sexo" value="hombre" checked />
+    <label for="hombre">Hombre</label><br />
+
+    <input type="radio" id="mujer" name="sexo" value="mujer" />
+    <label for="mujer">Mujer</label>
+    <form>
+      <br />
+      <label for="foto">Incluir mi foto</label>
+      <input type="file" id="foto" name="archivo_foto" />
+
+      <br /><br />
+
+      <input type="checkbox" id="novedades" name="boletin" checked />
+      <label for="novedades">Suscribirme al boletín de novedades</label>
+
+      <br /><br />
+
+      <button type="submit">Guardar cambios</button>
+
+      <button type="reset">Borrar los datos introducidos</button>
+    </form>
+  </body>
+</html>

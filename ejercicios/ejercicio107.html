@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="color: green">
+    <ol>
+      <li>La pagina debe comenzar con el siguiente encabezamiento</li>
+      <h1>Pagina personal de Juan Gabriel Pérez Acuña</h1>
+      <li>Uso de colores para texto y fondo</li>
+      <p style="color: white; background-color: blue; font-size: 20px">
+        Texto de color "Blanco" sobre fondo "Azul"
+      </p>
+      <p
+        style="
+          color: black;
+          font-size: 20px;
+          background: linear-gradient(
+            to right,
+            #fa4261,
+            #f39762,
+            #d5aa10,
+            #10d569,
+            #5b10d5
+          );
+        "
+      >
+        Texto de color "Negro" sobre fondo con "colores degradados"
+      </p>
+      <li>Inclusion de tipografias externas de Google Fonts, o similar</li>
+      <h1 style="font-family: 'Tangerine'">
+        Texto con tipografia externa <u>tangerine</u> de Google Fonts
+      </h1>
+      <h1 style="font-family: 'Alex Brush'">
+        Texto con la tipografia externa <u>Alex Brush</u>
+      </h1>
+      <li>Distintos encabezados</li>
+      <h1>Encabezado tipo h1</h1>
+      <h2>Encabezado tipo h2</h2>
+      <h3>Encabezado tipo h3</h3>
+      <h4>Encabezado tipo h4</h4>
+      <h5>Encabezado tipo h5</h5>
+      <h6>Encabezado tipo h6</h6>
+      <li>Uso de caracteres esoeciales</li>
+      <p>
+        El signo "mayor que" (&gt;) se representa con (&amp;gt;) y el signo
+        menor (&lt;) que con (&amp;lt;).
+      </p>
+      <p>
+        El signo "apertura de exclamacion" (&iexcl;) se representa con
+        (&amp;excl;) y el signo "marca registrada" (&reg;) se representa con
+        (&amp;reg;)
+      </p>
+      <li>Incluir, imagenes de tipo bitmap y vectorial</li>
+      <br />
+      <img src="/assets\img\giphy.gif" alt="Imagen" />
+      <img src="/assets\img\uigpfih.jpg" alt="Imagen" />
+      <li>Incluir algun video</li>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/NATSpYWERIE"
+        title="YouTube video player"
+        frameborder="0"
+        allowfullscreen
+      >
+      </iframe>
+      <li>Incluir borders redondeados en alguna de sus cajas</li>
+      <p
+        style="
+          width: 150px;
+          height: 150px;
+          border: 3px solid green;
+          display: inline-flex; /* Cambiado a inline-flex para alineación y flujo horizontal */
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          padding: 5px;
+          border-top-left-radius: 50%;
+          color: green; /* Añadido color del texto */
+          margin-right: 10px; /* Margen para separarlos */
+        "
+      >
+        Borde superior izquierdo al 50%
+      </p>
+      <p
+        style="
+          width: 150px;
+          height: 150px;
+          border: 3px solid green;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          padding: 5px;
+          border-top-right-radius: 50%;
+          color: green;
+          margin-right: 10px;
+        "
+      >
+        Borde superior derecho al 50%
+      </p>
+      <p
+        style="
+          width: 150px;
+          height: 150px;
+          border: 3px solid green;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          padding: 5px;
+          border-bottom-right-radius: 50%;
+          color: green;
+          margin-right: 10px;
+        "
+      >
+        Borde inferior derecho al 50%
+      </p>
+      <p
+        style="
+          width: 150px;
+          height: 150px;
+          border: 3px solid green;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          padding: 5px;
+          border-bottom-left-radius: 50%;
+          color: green;
+        "
+      >
+        Borde inferior izquierdo al 50%
+      </p>
+    </ol>
+  </body>
+</html>
